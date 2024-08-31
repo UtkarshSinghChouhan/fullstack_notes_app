@@ -1,0 +1,23 @@
+# Ignore node_modules and .env in the frontend (my-app)
+my-app/node_modules/
+my-app/.env
+
+# Ignore node_modules and .env in the backend (server)
+server/node_modules/
+server/.env
+
+# Cache and temporary files
+my-app/.cache/
+my-app/.temp/
+server/.cache/
+server/.temp/
+
+
+# Log files
+*.log
+my-app/logs/
+server/logs/
+
+
+# VSCode
+.vscode/
